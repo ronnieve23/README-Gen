@@ -9,11 +9,11 @@ const questions = [
         type: 'input',
         name: 'title',
         message: 'Enter The Title Of Your Project',
-        validate: projAnswers => {
-            if(projAnswers){
+        validate: titleAnswer => {
+            if(titleAnswer){
                 return true;
             } else {
-                console.log('You gotta put something in man');
+                console.log('Please Enter A Title For Your Project!');
                 return false;
             }
         }
@@ -23,11 +23,11 @@ const questions = [
         type: 'input',
         name: 'projDescription',
         message: 'Enter The Description Of Your Project',
-        validate: projAnswers => {
-            if(projAnswers){
+        validate: projectDescription => {
+            if(projectDescription){
                 return true;
             } else {
-                console.log('You gotta put something in man');
+                console.log('Please Enter A Description For Your Project!');
                 return false;
             }
         }
