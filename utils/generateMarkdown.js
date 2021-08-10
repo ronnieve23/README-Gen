@@ -14,11 +14,9 @@
 function generateMarkdown(data) {
   return `
   # ${data.projName}
-
   ## Description
   
   ${data.projDescription}
-
 `;
 }
 
