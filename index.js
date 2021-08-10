@@ -7,8 +7,8 @@ const generateMarkdown = require('./utils/generateMarkdown');
 const questions = [
     {
         type: 'input',
-        name: 'projName',
-        message: 'Enter The Name Of Your Project',
+        name: 'title',
+        message: 'Enter The Title Of Your Project',
         validate: projAnswers => {
             if(projAnswers){
                 return true;
