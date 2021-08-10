@@ -44,10 +44,7 @@ const writeToFile = (fileName, data)=> {
                 reject(err);
                 return;
             }
-            resolve({
-                ok: true,
-                message: 'File Created!'
-            });
+            console.log('README Generated!')
         })
     })
     
