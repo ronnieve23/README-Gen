@@ -35,3 +35,5 @@ The app utilizes Node.js and the Inquirer package.
  2. An alternative to the steps above is to open your downloaded/cloned repository inside VS Code right away and launch the terminal from inside VS Code. Use this option if you would want to fiddle with the code and change the layout of generated README. The generated README would still be under the 'dist' folder.
 
  ## Demonstration
+ 
+ [Click me to see  a video of how the app is used!](https://drive.google.com/file/d/1xjwPnUxoodyo42vVsk_Al7dJMGZ5lPA9/view?usp=sharing)
