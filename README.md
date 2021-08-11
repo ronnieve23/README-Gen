@@ -23,15 +23,15 @@ The app utilizes Node.js and the Inquirer package.
 
 3. Navigate to where you saved the downloaded/cloned repository; Right click on the repostiory folder (README-Gen) and select "New Terminal at folder". *(see installation notes)*
 
-4. Inside the terminal, type "npm install Inquirer" and hit enter. Wait for the installation to finish.
+4. Inside the terminal, type "npm install inquirer" and hit enter. Wait for the installation to finish.
 
 5. Type "node index.js" and hit enter. You will be asked to answer a series of prompts; each answer will go towards your generated README file! You should see the message "README Generated" after all the prompts are answered.
 
 6. Close the terminal and open your README-Gen folder. From there, open the "dist" folder and you can find your newly generated README file inside! You can open this file inside VS Code or any code editor that you prefer.
 
 #### Installation Notes:
- 1. If you have a windows machine, you can use download and use "GitBash" to simulate usage of the MacOS terminal.
+ 1. If you have a windows machine, you can download and use "GitBash" to simulate usage of the MacOS terminal.
 
- 2. For more experienced developers, you can go ahead and just open the downloaded repository inside VS Code or whichever code editor your are using and invoke the terminal codes from there.
+ 2. An alternative to the steps above is to open your downloaded/cloned repository inside VS Code right away and launch the terminal from inside VS Code. Use this option if you would want to fiddle with the code and change the layout of generated README. The generated README would still be under the 'dist' folder.
 
  ## Demonstration
