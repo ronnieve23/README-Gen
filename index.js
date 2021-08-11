@@ -1,5 +1,4 @@
 // TODO: Include packages needed for this application
-const { rejects } = require('assert');
 const fs = require('fs');
 const inquirer = require('inquirer');
 const generateMarkdown = require('./utils/generateMarkdown');
@@ -130,18 +129,14 @@ const questions = [
     
 
 // TODO: Create a function to write README file
-const writeToFile = (fileName, data)=> {
-    return new Promise ((resolve, reject) => {
-        fs.writeFile('./dist/README.md', (fileName, data), err =>{
-            if (err) {
-                //reject promise if there's an error
-                reject(err);
-                return;
-            }
-            console.log('README Generated!')
-        })
+function writeToFile(filename, data){
+    fs.writeFile('./dist/README.md',(filename, data), err => {
+        if (err){
+            console.log(err);
+            return
+        }
+        console.log ('README GENERATED!');
     })
-    
 }
 
 // TODO: Create a function to initialize app
