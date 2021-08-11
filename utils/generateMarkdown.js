@@ -29,27 +29,31 @@ function generateMarkdown(data) {
 
   ## Installation
 
-
+  ${data.installation}
 
   ## Usage
 
-
+  ${data.usage}
 
   ## Contributing
 
-
+  ${data.contribute}
 
   ## Tests
 
+  ${data.test}
 
   ## Questions
   For any questions, please feel free to reach out to me at:
-  Github:
-  Email:
+
+  Github: https://github.com/${data.github}
+
+  Email: ${data.email}
 
 
   ## License
 
+  ${data.license}
 `;
 }
 
