@@ -23,7 +23,7 @@ function renderLicenseLink(license) {
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
   if (license ==='No License'){
-    return `No License Was Used For This Project`
+    return ''
   }else if( license === 'Apache-2.0'){
     return `https://choosealicense.com/licenses/apache-2.0/`
   }
