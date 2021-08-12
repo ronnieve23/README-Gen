@@ -58,7 +58,7 @@ The app utilizes Node.js and the Inquirer package.
 
  ## Tests
 
- You can test different functionalities of the app by trying to apply different licenses to your README to see if it will generate the correct badge.
+ You can test different functionalities of the app by trying to apply different licenses to your README to see if it will generate the correct badge. Try to not enter anything when answering the prompt and see what happens!
 
  ## Questions 
 
