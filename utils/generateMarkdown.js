@@ -48,6 +48,7 @@ function generateMarkdown(data) {
   ${data.projDescription}
 
   ## Table Of Contents
+  * [Description](#description)
   * [Installation](#installation)
   * [Usage](#usage)
   * [Contributing](#contributing)
